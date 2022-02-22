@@ -8,23 +8,23 @@ import feladatok
 
 class TestHaromBetusSzavakSzama(TestCase):
     def test_feladat01(self):
-        aktualis = feladatok.szavak_szama("Apa megy és edz")
+        aktualis = feladatok.harom_betus_szavak("Apa megy és edz")
         elvart = 2
         self.assertEqual(elvart, aktualis, "Nem jól határozta mega szavak számát")
     def test_feladat03(self):
-        aktualis = feladatok.szavak_szama("Apa megy és edz de ha hoz kék pólót akkor kis ajándékot kap")
+        aktualis = feladatok.harom_betus_szavak("Apa megy és edz de ha hoz kék pólót akkor kis ajándékot kap")
         elvart = 6
         self.assertEqual(elvart, aktualis, "Nem jól határozta mega szavak számát")
     def test_feladat04(self):
-        aktualis = feladatok.szavak_szama("Apa")
+        aktualis = feladatok.harom_betus_szavak("Apa")
         elvart = 1
         self.assertEqual(elvart, aktualis, "Nem jól határozta mega szavak számát")
     def test_feladat05(self):
-        aktualis = feladatok.szavak_szama("Megy a gőzös Kanizsára vagy az állomásra")
+        aktualis = feladatok.harom_betus_szavak("Megy a gőzös Kanizsára vagy az állomásra")
         elvart = 0
         self.assertEqual(elvart, aktualis, "Nem jól határozta mega szavak számát")
     def test_feladat06(self):
-        aktualis = feladatok.szavak_szama("")
+        aktualis = feladatok.harom_betus_szavak("")
         elvart = 0
         self.assertEqual(elvart, aktualis, "Nem jól határozta mega szavak számát")
 

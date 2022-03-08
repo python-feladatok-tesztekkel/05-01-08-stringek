@@ -8,11 +8,11 @@ import feladatok
 
 class TestSzavakSzama(TestCase):
     def test_feladat01(self):
-        aktualis = feladatok.szavak_szama("Indul a bakterház.")
+        aktualis = feladatok.szavak_szama("Indul a bakterház")
         elvart = 3
         self.assertEqual(elvart, aktualis, "Nem jól határozta mega szavak számát")
     def test_feladat02(self):
-        aktualis = feladatok.szavak_szama("Megyen már a hajnal csillag lefelé. Az én édes galambom most megyen hazafelé.")
+        aktualis = feladatok.szavak_szama("Megyen már a hajnal csillag lefelé. Az én édes galambom most megyen hazafelé")
         elvart = 13
         self.assertEqual(elvart, aktualis, "Nem jól határozta meg a szavak számát")
     def test_feladat03(self):

@@ -15,7 +15,7 @@ def ebetuk_szama(szo:str) -> int:
 # 3. feladat
 # Írjon függvényt harom_betus_szavak néven
 # A föggvény paraméterben egy mondatot kap.
-# A függvyén határozza meg a mondat lévő három betűs szavakat
+# A függvyén határozza meg a mondat lévő három betűs szavak számát
 # A karakterláncban csak betűk és szóközök vannak, írásjelek nélkül
 
 # 4. feladat

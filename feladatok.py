@@ -20,6 +20,6 @@ def ebetuk_szama(szo:str) -> int:
 
 # 4. feladat
 # Írjon függvényt legrovidebb_szo néven
-# A függvény határzza meg a legrövidebb szó hosszát a paraméterben kapott mondatba.
+# A függvény a paraméterben kapott mondatban határzza meg a legrövidebb szó hosszát.
 
 

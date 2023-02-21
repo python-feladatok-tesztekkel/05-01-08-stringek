@@ -19,7 +19,7 @@ def ebetuk_szama(szo:str) -> int:
 # A karakterláncban csak betűk és szóközök vannak, írásjelek nélkül
 
 # 4. feladat
-# Írjon függvényt legrovidebb_szo néven
+# Írjon függvényt legrovidebb_szo_hossza néven
 # A függvény a paraméterben kapott mondatban határzza meg a legrövidebb szó hosszát.
 
 
